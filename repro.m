@@ -2,7 +2,7 @@
 
 % First clear and then load the test manager with the customer file
 sltest.testmanager.clear
-exampleCustomerFile = 'CustomerResult.mldatx';
+exampleCustomerFile = '~/Desktop/WTUR1_DyCtl_TestResults_StorageIssues.mldatx';
 disp("111\n");
 sltest.testmanager.importResults(exampleCustomerFile);
 %% get results and create report
